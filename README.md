@@ -7,40 +7,28 @@
 > without sacrificing the ability to refer the code back to the equations in the textbook.
 <br/>
 
-Reference: most of this repository implements algorithms described in the following textbook.
+## Monte Carlo Simulation
 
-```
-@book{mcdonald2013derivatives,
-  title={Derivatives markets (3rd edition)},
-  author={McDonald, Robert Lynch},
-  year={2013},
-  publisher={Pearson Education}
-}
-```
+How to use: `example_monte_carlo.py`
 
-<br/>
+* `stock_price_simulation()`
+* `stock_price_simulation_with_poisson_jump()`
+
 
 ## Black-Scholes-Merton (BSM)
 
 How to use: `example_BSM.py`
 
-* Chapter 12.1: European call `call_value()`, European put `put_value()`
-* Chapter 12.2: (class) `GarmanKohlhagenForex`
-* Chapter 12.5: implied volatility assume BSM model `implied_vol()`
-* Chapter 21.5: Merton jump diffusion `merton_jump_diffusion()`
-* Chapter 22: Exotic options (barrier options) `cash_or_nothing_barrier_options()`
-* Appendix 12.B: `delta()`, `gamma()`, `theta()`, `vega()`, `rho()`, `psi()`
+* European call `call_value()`, European put `put_value()`
+* (class) `GarmanKohlhagenForex`
+* implied volatility assume BSM model `implied_vol()`
+* Merton jump diffusion `merton_jump_diffusion()`
+* Exotic options (barrier options) `cash_or_nothing_barrier_options()`
+* `delta()`, `gamma()`, `theta()`, `vega()`, `rho()`, `psi()`
 
 <br/>
 
-## Monte Carlo Simulation
 
-How to use: `example_monte_carlo.py`
-
-* Chapter 18 & 19.3: `stock_price_simulation()`
-* Chapter 19.8: `stock_price_simulation_with_poisson_jump()`
-
-<br/>
 
 ## Binomial Excel Illustration
 
